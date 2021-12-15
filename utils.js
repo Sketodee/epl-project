@@ -18,7 +18,7 @@ export function getClub() {
                 <img  class="stadium-img" src="${club.stadiumImage}" alt="arsenal logo">
             </div>
             <div class="flex-item-text" style="background-color:${club.color}; color:${club.themeColor}">
-                <img class="club-img"  src="${club.logo}" alt="arsenal logo">
+                <img class="club-img"  src="${club.logo}" alt=" logo">
                 <h3> ${club.clubName} </h3>
                 <p> ${club.ground}</p>
                 <div > 
