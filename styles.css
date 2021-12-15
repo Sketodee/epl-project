@@ -1,0 +1,88 @@
+* , *::before , *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 70px 30px;
+    margin: 0 auto;
+    background-color: #460528;
+    color: floralwhite
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.flex-item {
+    width: 25%;
+    border: 7px solid transparent;
+}
+
+.flex-item-text {
+    padding: 0px 10px 10px 10px;
+}
+
+.club-img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -40px
+}
+
+
+.stadium-img {
+    height: 150px;
+}
+
+
+
+@media (max-width: 600px) {
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        line-height: 1.5rem;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+.hero-logo {
+    padding-bottom: 40px;
+}
+
+}
+
+
+@media (min-width:600px) and (max-width: 1280px) {
+    .flex-item {
+        width: 50%;
+    }
+    
+}
